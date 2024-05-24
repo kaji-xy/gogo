@@ -2,11 +2,10 @@
 package toli
 
 // Title returns the title of this book.
-func title() string {
+func Title() string {
 	return "GoGo Toli: " + subtitle()
 }
 
 func subtitle() string {
 	return "Tolders on skates"
 }
-
